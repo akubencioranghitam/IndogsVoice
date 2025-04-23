@@ -1,14 +1,21 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-    Name = "Zeta Fishing Bot",
-    LoadingTitle = "Alpha's Fishing Suite",
-    LoadingSubtitle = "Powered by Zo",
-    Theme = "DarkBlue",
+    Name = "Raja Malapetaka",
+    LoadingTitle = "Powering Up",
+    LoadingSubtitle = "Indogs Voice Kontol",
+    Theme = "Amethyst",
     ConfigurationSaving = {
         Enabled = true,
-        FileName = "ZetaFishing"
+        FileName = "RapidCatcher"
     }
+})
+
+Rayfield:Notify({
+   Title = "Tutorial",
+   Content = "Minimal lempar pancingan sekali",
+   Duration = 6.5,
+   Image = 4483362458,
 })
 
 local Tab = Window:CreateTab("Fishing Controls", "fish")
