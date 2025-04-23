@@ -1,8 +1,8 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-    Name = "Raja Malapetaka",
-    LoadingTitle = "Powering Up",
+    Name = "Fish Catcher",
+    LoadingTitle = "Raja Malapetaka",
     LoadingSubtitle = "Indogs Voice Kontol",
     Theme = "Amethyst",
     ConfigurationSaving = {
@@ -14,8 +14,8 @@ local Window = Rayfield:CreateWindow({
 Rayfield:Notify({
    Title = "Tutorial",
    Content = "Minimal lempar pancingan sekali",
-   Duration = 6.5,
-   Image = 4483362458,
+   Duration = 10,
+   Image = "bell"
 })
 
 local Tab = Window:CreateTab("Fishing Controls", "fish")
